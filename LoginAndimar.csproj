@@ -69,11 +69,10 @@
   <ItemGroup>
     <Content Include="Index.aspx" />
     <Content Include="login.aspx" />
-    <Content Include="Recursos\Css\2001.jpg" />
-    <Content Include="Recursos\Css\andi_buses.jpg" />
+    <Content Include="Recursos\Images\andi_buses.jpg" />
     <Content Include="Recursos\Css\Estilos.css" />
-    <Content Include="Recursos\Css\logo-andimar-asecas.png" />
-    <Content Include="Recursos\Css\logoGrande.png" />
+    <Content Include="Recursos\Images\logo-andimar-asecas.png" />
+    <Content Include="Recursos\Scripts\cbMostrarContrasena.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -102,6 +101,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

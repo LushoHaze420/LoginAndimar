@@ -1,7 +1,7 @@
 ﻿
 /*LOGIN*/
 html, body{
-    background-image: url('/Recursos/Css/andi_buses.jpg');
+    background-image: url('/Recursos/Images/andi_buses.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -48,6 +48,9 @@ html, body{
 #lblError {
     color: red;
 }
+
+
+
 /*FIN LOGIN*/
 
 /*BOTON CERRAR SESION*/
@@ -63,7 +66,7 @@ html, body{
 
 /*INICIO INDEX*/
 #formulario_index {
-    background-image: url('/Recursos/Css/andi_buses.jpg');
+    background-image: url('/Recursos/Images/andi_buses.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;

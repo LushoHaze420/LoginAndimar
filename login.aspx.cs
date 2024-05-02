@@ -2,7 +2,7 @@
 using System.Configuration;
 using System.Data.SqlClient;
 using System.Data;
-
+using System.Web.UI.WebControls;
 
 namespace LoginAndimar
 {
@@ -39,6 +39,12 @@ namespace LoginAndimar
                 lblError.Text = "Error de usuario o contrasena";
             }
             cmd.Connection.Close();
+        }
+
+
+        private void BtnMostrarContrasena_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

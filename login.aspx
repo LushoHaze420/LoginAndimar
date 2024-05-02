@@ -11,14 +11,20 @@
     
     <!--jquery-->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" ></script>
+
+    <!--JS-->
+    <script src="Recursos/Scripts/cbMostrarContrasena.js"></script>
+
+    <!--CSS-->
     <link href="Recursos/Css/Estilos.css" rel="stylesheet" />
+
     <title>Login Andimar</title>
 </head>
 <body>
     <div class="container">
         <div class="card">
             <div class="card-header">
-                <img src="Recursos/Css/logo-andimar-asecas.png" alt="logo-andimar"/>
+                <img src="Recursos/Images/logo-andimar-asecas.png" alt="logo-andimar"/>
             </div>
             <div class="card-body">
                 <form id="formulario_login" runat="server">
@@ -30,9 +36,11 @@
                             <asp:Label ID="lblUsuario" runat="server" Text="Usuario"></asp:Label>
                             <asp:TextBox ID="tbUsuario" CssClass="form-control" runat="server" placeholder="Nombre de Usuario"></asp:TextBox>
                         </div>
+                        <br />
                         <div>
                             <asp:Label ID="lblPassword" runat="server" Text="Password"></asp:Label>
                             <asp:TextBox ID="tbPassword" CssClass="form-control" TextMode="Password" runat="server" placeholder="Password" ></asp:TextBox>
+                            <asp:CheckBox ID="cbMostrarContrasena" runat="server" Text="Mostrar contraseña" onchange="togglePasswordVisibility('tbPassword', 'cbMostrarContrasena');" />
                         </div>
                         <hr />
                         <div class="row">
